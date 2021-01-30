@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+header h1{
+    text-align: center;
+    color: white;
+}
+header{
+    margin-top: 10px;
+}
+.wrapper{
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+}
+body{
+    background-color: #222222;
+}
+.mainFoods{
+    margin-top: 30px;
+}
+.intro{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    padding: 0 10%;
+}

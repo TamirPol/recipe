@@ -1,0 +1,36 @@
+.divFood{
+    color: white;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.divFood:hover{
+    background-color: #444444;
+}
+.divFood img{
+    width: 200px;
+    height: 170px;
+}
+.divFood span{
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Images{
+    transition: margin-left 1s, opacity 2s;
+    margin-left: -60%;
+}
+.divFood:last-child{
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 1140px) {
+    .divFood img{
+        width: 160px;
+        height: 136px;
+    }
+    .divFood span{
+        font-size: 20px;
+    }
+}

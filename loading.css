@@ -1,0 +1,32 @@
+.loading{
+    border-top: 10px solid orangered;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto auto;
+    animation: loading 2s infinite;
+    animation-timing-function: linear;
+}
+.loading::before, .loading::after{
+    content: '';
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+.loading::before{
+    border-top: blue 10px solid;
+    transform: rotate(120deg);
+}
+.loading::after{
+    border-top: yellow 10px solid;
+    transform: rotate(240deg);
+}
+@keyframes loading{
+    100%{
+        transform: rotate(360deg);
+    }
+}
